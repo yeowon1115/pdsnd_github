@@ -1,17 +1,34 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# 파이썬 데이터 분석 프로젝트: 자전거 공유 시스템 탐구
 
-### Date created
-Include the date you created this project and README file.
+## 프로젝트 설명
 
-### Project Title
-Replace the Project Title
+이 프로젝트는 **NanoDegree 프로그램**의 일환으로 진행되며, 데이터 과학의 기초를 다지는 데 중점을 두고 있습니다. 
 
-### Description
-Describe what your project is about and what it does
+### 작성일
 
-### Files used
-Include the files used
+최종 업데이트: **2024-11-07**
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### 프로젝트 제목
+
+**미국 자전거 공유 데이터 분석**
+
+### 프로젝트 개요
+
+이 프로젝트는 미국의 주요 도시인 **시카고**, **뉴욕**, **워싱턴**의 자전거 공유 시스템 데이터를 분석하는 것을 목표로 합니다. 각 도시의 자전거 사용 패턴, 대여 시간, 사용자 통계 등을 탐구하여 자전거 공유 시스템의 동향을 이해하고, 이를 통해 도시 내 자전거 이용의 효율성을 높이는 방안을 모색합니다. 통계 분석은 터미널 기반의 인터랙티브 프로그램을 통해 수행되며, 사용자는 다양한 필터를 적용하여 데이터를 탐색할 수 있습니다.
+
+### 사용된 파일
+
+프로젝트는 각 도시의 데이터셋을 포함하는 세 개의 CSV 파일로 구성됩니다:
+
+- **Chicago.csv**: 시카고의 자전거 대여 데이터
+- **New York City.csv**: 뉴욕시의 자전거 대여 데이터
+- **Washington.csv**: 워싱턴의 자전거 대여 데이터
+
+대용량 CSV 파일은 `.gitignore`를 통해 버전 관리에서 제외되어, GitHub와 같은 플랫폼에 업로드되지 않도록 설정되어 있습니다. 이는 데이터의 보안을 유지하고, 불필요한 파일로 인해 리포지토리가 혼잡해지는 것을 방지하기 위함입니다.
+
+또한, `bikeshare.py`라는 스크립트 파일이 프로그램 실행에 사용되며, 이 파일은 데이터 분석 및 시각화를 위한 주요 로직을 포함하고 있습니다. 이 스크립트를 통해 사용자는 데이터를 로드하고, 필터링하며, 결과를 시각적으로 표현할 수 있습니다.
+
+### 기대 효과
+
+이 프로젝트를 통해 데이터 분석의 기초를 배우고, 실제 데이터를 다루는 경험을 쌓을 수 있습니다. 또한, 자전거 공유 시스템에 대한 이해를 높이고, 데이터 기반의 의사결정 능력을 향상시킬 수 있는 기회를 제공합니다.
 
